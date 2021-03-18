@@ -1,0 +1,11 @@
+<input
+    [type]="type"
+    class="form-control"
+    [placeholder]="placeholder"
+    [formControl]="formControl"/>
+    <hr class="hr-line">
+<div class="input-group-append form__required" *ngIf="formControl.invalid">
+    <span class="colorInvalid">
+        <i>{{ validation_message }}</i>
+    </span>
+</div>

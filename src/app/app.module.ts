@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { PrincipalModule } from './components/principal/principal.module';
+import { SharedModule } from './shared/shared.module';
 
 // Components
 import { AppComponent } from './app.component';
@@ -23,7 +24,8 @@ import { PrincipalComponent } from './components/principal/principal.component';
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    PrincipalModule
+    PrincipalModule,
+    SharedModule
 
   ],
   providers: [],
